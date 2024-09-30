@@ -6,6 +6,18 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-family: "Nerko One", system-ui;
+  color: #ff9614;
+  font-size: 3.5rem;
+  font-weight: 100;
+  text-shadow: 2px 1px #aaaaaa;
+}
+
 /* UTILS */
 
 .container {
@@ -13,4 +25,14 @@
   width: 1000px;
   max-width: 100%;
   padding: 0 10px;
+
+  /* debug */
+  background-color: #aaaaaa;
+}
+
+/* HEADER */
+
+.title-container {
+  text-align: center;
+  padding: 20px 20px;
 }
