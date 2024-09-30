@@ -24,6 +24,7 @@ main {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 /* UTILS */
@@ -105,7 +106,8 @@ a {
 .social-section {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  flex-wrap: wrap;
+  gap: 5%;
   padding: 20px 0;
 }
 
@@ -144,11 +146,11 @@ a {
   color: #e62222;
 }
 
-/* ADS */
+/* BANNER */
 
-.ads {
-  padding: 30px 0;
+.banner {
   display: none;
+  padding: 30px 0;
 }
 
 /* PRESENTATION */
@@ -205,8 +207,13 @@ footer {
   padding: 10px 0 20px;
 }
 
+.contacts-link-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .contacts-link {
-  display: inline;
   line-height: 2.5rem;
-  margin: 0 10px;
 }

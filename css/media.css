@@ -1,4 +1,6 @@
+/* TABLET */
 @media screen and (min-width: 768px) {
+  /* HEADER */
   .container {
     padding: 0 60px;
   }
@@ -6,6 +8,8 @@
   .title-container {
     text-align: left;
   }
+
+  /* TUTORIAL */
 
   .tutorial-title {
     font-size: 2.5rem;
@@ -21,7 +25,61 @@
 
   .description-list-item {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 30px;
     line-height: 3rem;
+  }
+
+  /* SOCIAL */
+
+  .social-section {
+    gap: 2%;
+  }
+
+  /* BANNER */
+
+  .banner {
+    display: block;
+  }
+
+  /* PRESENTATION */
+
+  .presentation-section {
+    display: inline-block;
+  }
+
+  .presentation-section img {
+    float: left;
+  }
+
+  .presentation-section p {
+    padding: 0 0 10px;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+  /* TUTORIAL */
+  .tutorial-title {
+    font-size: 3.2rem;
+  }
+
+  .tutorial-card {
+    display: flex;
+  }
+
+  .tutorial-video {
+    width: 60%;
+  }
+
+  .tutorial-description {
+    width: 40%;
+  }
+
+  .description-list {
+    text-align: left;
+  }
+
+  .description-list-item {
+    display: block;
   }
 }
