@@ -18,16 +18,17 @@ h1 {
   text-shadow: 2px 1px #aaaaaa;
 }
 
+main {
+  background-color: #f6f5f3;
+}
+
 /* UTILS */
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 1500px;
   max-width: 100%;
-  padding: 0 10px;
-
-  /* debug */
-  background-color: #aaaaaa;
+  padding: 0 20px;
 }
 
 /* HEADER */
@@ -35,4 +36,37 @@ h1 {
 .title-container {
   text-align: center;
   padding: 20px 20px;
+}
+
+/* MAIN */
+
+.subtitle {
+  color: #999999;
+  font-weight: inherit;
+  padding: 20px 0 10px;
+}
+
+.tutorial-title {
+  color: #4e3969;
+  font-size: 1.6rem;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.tutorial-title-suffix {
+  display: none;
+}
+
+.tutorial-card {
+  margin: 20px 0;
+  background-color: white;
+}
+
+.tutorial-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.tutorial-description {
+  padding: 30px;
 }
