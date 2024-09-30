@@ -92,19 +92,24 @@ ul {
 .social-section {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
   padding: 20px 0;
 }
 
 .social-name {
   font-weight: bold;
   display: none;
+  color: black;
 }
 
-.fa-brands {
+.social-links {
   background-color: white;
   padding: 15px 20px;
-  border-radius: 45%;
+  border-radius: 30px;
   box-shadow: 0 2px 2px 0 #aaaaaa;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
 }
 
 .fa-facebook {
@@ -126,3 +131,5 @@ ul {
 .fa-youtube {
   color: #e62222;
 }
+
+/* PRESENTATION */
