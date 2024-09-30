@@ -82,4 +82,13 @@
   .description-list-item {
     display: block;
   }
+
+  /* SOCIAL */
+
+  .social-name {
+    display: inline;
+    padding: 0 5px;
+  }
+
+  /* FOOTER */
 }
