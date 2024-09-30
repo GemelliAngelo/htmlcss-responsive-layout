@@ -91,4 +91,15 @@
   }
 
   /* FOOTER */
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .address {
+    text-align: left;
+    line-height: 2rem;
+  }
 }

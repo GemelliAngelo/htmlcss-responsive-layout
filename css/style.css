@@ -195,7 +195,7 @@ footer {
 
 .address {
   text-align: center;
-  padding: 20px 0 10px;
+  padding: 20px 20px 10px;
 }
 
 .address span::before {
@@ -204,7 +204,7 @@ footer {
 
 .contacts {
   text-align: center;
-  padding: 10px 0 20px;
+  padding: 10px 20px 20px;
 }
 
 .contacts-link-list {
