@@ -1,2 +1,27 @@
 @media screen and (min-width: 768px) {
+  .container {
+    padding: 0 60px;
+  }
+
+  .title-container {
+    text-align: left;
+  }
+
+  .tutorial-title {
+    font-size: 2.5rem;
+  }
+
+  .tutorial-title-suffix {
+    display: inline;
+  }
+
+  .description-list {
+    text-align: justify;
+  }
+
+  .description-list-item {
+    display: inline-block;
+    margin-right: 25px;
+    line-height: 3rem;
+  }
 }
